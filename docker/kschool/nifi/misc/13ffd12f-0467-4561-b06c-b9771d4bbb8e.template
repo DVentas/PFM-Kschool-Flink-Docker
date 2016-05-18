@@ -1,0 +1,2206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template>
+    <description></description>
+    <id>13ffd12f-0467-4561-b06c-b9771d4bbb8e</id>
+    <name>kschool raw </name>
+    <snippet>
+        <connections>
+            <id>08ce7f56-f11c-484f-9215-9eb75004f4bb</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>32034db3-4ebb-4d42-897a-110cca52f7b2</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>Success</selectedRelationships>
+            <source>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>63b9db31-34f3-4816-a207-3f6954df25c7</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>c09a5276-677a-4efe-9308-60a4e1cac847</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>cff913c2-360b-471c-b156-1edc18245672</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>78b608f3-5fc2-494f-9504-f33a26886bf5</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>781d1272-e06c-4da9-998c-d79fbba83547</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>cff913c2-360b-471c-b156-1edc18245672</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>a7cee0a1-ebfc-4ad6-93b3-71c265a8b5bd</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>425b73b4-2060-45f7-b196-41cb45ca1a7e</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>9a421ab9-9460-4ab9-ab39-73a2c3f90216</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>Success</selectedRelationships>
+            <source>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>63b9db31-34f3-4816-a207-3f6954df25c7</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>59abe265-d167-49ff-b3e3-7868a362fa40</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>78b608f3-5fc2-494f-9504-f33a26886bf5</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>32034db3-4ebb-4d42-897a-110cca52f7b2</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>fa44d506-a29d-447b-868f-bdcef9d054b7</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>a7cee0a1-ebfc-4ad6-93b3-71c265a8b5bd</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>9a421ab9-9460-4ab9-ab39-73a2c3f90216</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>dfec11cb-b9d5-4f19-8f95-b4b986239f18</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>a7cee0a1-ebfc-4ad6-93b3-71c265a8b5bd</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>Failure</selectedRelationships>
+            <source>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>63b9db31-34f3-4816-a207-3f6954df25c7</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>932ee2e9-e490-48e4-822f-2f2897a65f26</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <bends>
+                <x>1328.4797331002262</x>
+                <y>829.7787782295886</y>
+            </bends>
+            <bends>
+                <x>1201.553158393195</x>
+                <y>829.7787782295886</y>
+            </bends>
+            <destination>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>cff913c2-360b-471c-b156-1edc18245672</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>failure</selectedRelationships>
+            <source>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>cff913c2-360b-471c-b156-1edc18245672</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>d97cfedd-16bb-481e-858c-1864e97f50bd</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>cff913c2-360b-471c-b156-1edc18245672</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>Connection failure</selectedRelationships>
+            <source>
+                <groupId>4351e928-fee7-4050-acd5-f9c3add06111</groupId>
+                <id>63b9db31-34f3-4816-a207-3f6954df25c7</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <labels>
+            <id>8213cc6b-b6db-42cf-bf13-b037a883d505</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <position>
+                <x>455.0</x>
+                <y>608.7889099121094</y>
+            </position>
+            <height>256.86041259765625</height>
+            <label>Failed</label>
+            <style>
+                <entry>
+                    <key>background-color</key>
+                    <value>#f03567</value>
+                </entry>
+                <entry>
+                    <key>font-size</key>
+                    <value>20px</value>
+                </entry>
+            </style>
+            <width>1520.529296875</width>
+        </labels>
+        <labels>
+            <id>e6cb83ed-bda8-41d1-b971-2d235731225a</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <position>
+                <x>458.5987358093262</x>
+                <y>269.0</y>
+            </position>
+            <height>229.66600036621094</height>
+            <label>Success</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>20px</value>
+                </entry>
+            </style>
+            <width>1511.4119873046875</width>
+        </labels>
+        <processors>
+            <id>63b9db31-34f3-4816-a207-3f6954df25c7</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <position>
+                <x>1101.2482877877262</x>
+                <y>332.74261108481323</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>host</key>
+                        <value>
+                            <description>MQTT broker host</description>
+                            <displayName>Broker host name</displayName>
+                            <dynamic>false</dynamic>
+                            <name>host</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>port</key>
+                        <value>
+                            <defaultValue>1883</defaultValue>
+                            <description>MQTT protocol broker port</description>
+                            <displayName>Broker port</displayName>
+                            <dynamic>false</dynamic>
+                            <name>port</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>username</key>
+                        <value>
+                            <description></description>
+                            <displayName>Username</displayName>
+                            <dynamic>false</dynamic>
+                            <name>username</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>password</key>
+                        <value>
+                            <description></description>
+                            <displayName>Password</displayName>
+                            <dynamic>false</dynamic>
+                            <name>password</name>
+                            <required>false</required>
+                            <sensitive>true</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>clientId</key>
+                        <value>
+                            <description>MQTT subscribing client ID. Will be generated if not provided.</description>
+                            <displayName>Client ID</displayName>
+                            <dynamic>false</dynamic>
+                            <name>clientId</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>qos</key>
+                        <value>
+                            <allowableValues>
+<description>Best effort delivery. A message won’t be acknowledged by the receiver or stored and redelivered by the sender. This is often called “fire and forget” and provides the same guarantee as the underlying TCP protocol.</description>
+<displayName>0 - At most once</displayName>
+<value>0</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>Guarantees that a message will be delivered at least once to the receiver. The message can also be delivered more than once</description>
+<displayName>1 - At least once</displayName>
+<value>1</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>Guarantees that each message is received only once by the counterpart. It is the safest and also the slowest quality of service level. The guarantee is provided by two round-trip flows between sender and receiver.</description>
+<displayName>2 - Exactly once</displayName>
+<value>2</value>
+                            </allowableValues>
+                            <defaultValue>0</defaultValue>
+                            <description>MQTT Quality of Service (0, 1 or 2). See individual values descriptions for complete semantics.</description>
+                            <displayName>Quality of Service</displayName>
+                            <dynamic>false</dynamic>
+                            <name>qos</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>topic</key>
+                        <value>
+                            <description>MQTT topic to subscribe to. Single-level(+) and multi-level(#) syntax supported.</description>
+                            <displayName>Topic</displayName>
+                            <dynamic>false</dynamic>
+                            <name>topic</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>clean-session</key>
+                        <value>
+                            <allowableValues>
+<description>Client and Server discard any previous session and start a new one. This session lasts as long as the network connection. State data associated with this session is not reused in any subsequent session</description>
+<displayName>Clean Session</displayName>
+<value>true</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>Server resumes communications with the client based on state from the current session (as identified by the ClientID). The client and server store the session after the client and server are disconnected. After the disconnection of a session that had CleanSession set to 0, the server stores further QoS 1 and QoS 2 messages that match any subscriptions that the client had at the time of disconnection as part of the session state</description>
+<displayName>Resume Session</displayName>
+<value>false</value>
+                            </allowableValues>
+                            <defaultValue>true</defaultValue>
+                            <description>Whether to start afresh or resume previous flows. See detailed descriptions for each value.</description>
+                            <displayName>Session state</displayName>
+                            <dynamic>false</dynamic>
+                            <name>clean-session</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>mqtt-version</key>
+                        <value>
+                            <allowableValues>
+<description>Start with v3.1.1 and fallback to v3.1.0 if not supported by a broker</description>
+<displayName>AUTO</displayName>
+<value>0</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>v3.1.1</displayName>
+<value>4</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>v3.1.0</displayName>
+<value>3</value>
+                            </allowableValues>
+                            <defaultValue>0</defaultValue>
+                            <description>MQTT specification version</description>
+                            <displayName>MQTT Spec Version</displayName>
+                            <dynamic>false</dynamic>
+                            <name>mqtt-version</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>connection-timeout-sec</key>
+                        <value>
+                            <defaultValue>30</defaultValue>
+                            <description>Maximum time interval the client will wait for the network connection to the MQTT server to be established. The default timeout is 30 seconds. A value of 0 disables timeout processing meaning the client will wait until the network connection is made successfully or fails.</description>
+                            <displayName>Connection Timeout (seconds)</displayName>
+                            <dynamic>false</dynamic>
+                            <name>connection-timeout-sec</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>keepalive-interval-sec</key>
+                        <value>
+                            <defaultValue>60</defaultValue>
+                            <description>Defines the maximum time interval between messages sent or received. It enables the client to detect if the server is no longer available, without having to wait for the TCP/IP timeout. The client will ensure that at least one message travels across the network within each keep alive period. In the absence of a data-related message during the time period, the client sends a very small &quot;ping&quot; message, which the server will acknowledge. A value of 0 disables keepalive processing in the client.</description>
+                            <displayName>Keep Alive Interval (seconds)</displayName>
+                            <dynamic>false</dynamic>
+                            <name>keepalive-interval-sec</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>receive-buffer-count</key>
+                        <value>
+                            <defaultValue>1</defaultValue>
+                            <description>Max number of messages queued up by this subscriber before they get routed into NiFi.</description>
+                            <displayName>Receive Buffer Count</displayName>
+                            <dynamic>false</dynamic>
+                            <name>receive-buffer-count</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>lwt-topic</key>
+                        <value>
+                            <description>A 'last will' message will be stored on the server and associated with the network connection. The will message is published when the connection is subsequently terminated for any reason other than a clean disconnect.</description>
+                            <displayName>'Last Will' Topic</displayName>
+                            <dynamic>false</dynamic>
+                            <name>lwt-topic</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>lwt-payload</key>
+                        <value>
+                            <description>Actual 'last will' message to be sent.</description>
+                            <displayName>'Last Will' Payload</displayName>
+                            <dynamic>false</dynamic>
+                            <name>lwt-payload</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>lwt-qos</key>
+                        <value>
+                            <allowableValues>
+<description>Best effort delivery. A message won’t be acknowledged by the receiver or stored and redelivered by the sender. This is often called “fire and forget” and provides the same guarantee as the underlying TCP protocol.</description>
+<displayName>0 - At most once</displayName>
+<value>0</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>Guarantees that a message will be delivered at least once to the receiver. The message can also be delivered more than once</description>
+<displayName>1 - At least once</displayName>
+<value>1</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>Guarantees that each message is received only once by the counterpart. It is the safest and also the slowest quality of service level. The guarantee is provided by two round-trip flows between sender and receiver.</description>
+<displayName>2 - Exactly once</displayName>
+<value>2</value>
+                            </allowableValues>
+                            <defaultValue>0</defaultValue>
+                            <description>QoS level to be used when publishing the Will Message</description>
+                            <displayName>'Last Will' QoS Level</displayName>
+                            <dynamic>false</dynamic>
+                            <name>lwt-qos</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>lwt-retain</key>
+                        <value>
+                            <allowableValues>
+<displayName>true</displayName>
+<value>true</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>false</displayName>
+<value>false</value>
+                            </allowableValues>
+                            <defaultValue>true</defaultValue>
+                            <description>Specifies if the Will Message is to be Retained when it is published</description>
+                            <displayName>'Last Will' Retain</displayName>
+                            <dynamic>false</dynamic>
+                            <name>lwt-retain</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>host</key>
+                        <value>mqtt</value>
+                    </entry>
+                    <entry>
+                        <key>port</key>
+                    </entry>
+                    <entry>
+                        <key>username</key>
+                    </entry>
+                    <entry>
+                        <key>password</key>
+                    </entry>
+                    <entry>
+                        <key>clientId</key>
+                    </entry>
+                    <entry>
+                        <key>qos</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>topic</key>
+                        <value>mqtt_raw</value>
+                    </entry>
+                    <entry>
+                        <key>clean-session</key>
+                    </entry>
+                    <entry>
+                        <key>mqtt-version</key>
+                    </entry>
+                    <entry>
+                        <key>connection-timeout-sec</key>
+                    </entry>
+                    <entry>
+                        <key>keepalive-interval-sec</key>
+                    </entry>
+                    <entry>
+                        <key>receive-buffer-count</key>
+                    </entry>
+                    <entry>
+                        <key>lwt-topic</key>
+                    </entry>
+                    <entry>
+                        <key>lwt-payload</key>
+                    </entry>
+                    <entry>
+                        <key>lwt-qos</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>lwt-retain</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>GetMQTT</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>Broker connectivity errors</description>
+                <name>Connection failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>Messages failed to process</description>
+                <name>Failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>Success relationship</description>
+                <name>Success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <supportsBatching>false</supportsBatching>
+            <supportsEventDriven>false</supportsEventDriven>
+            <supportsParallelProcessing>false</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.mqtt.GetMQTT</type>
+        </processors>
+        <processors>
+            <id>78b608f3-5fc2-494f-9504-f33a26886bf5</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <position>
+                <x>559.5149282810075</x>
+                <y>690.6853884334532</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Hadoop Configuration Resources</key>
+                        <value>
+                            <description>A file or comma separated list of files which contains the Hadoop file system configuration. Without this, Hadoop will search the classpath for a 'core-site.xml' and 'hdfs-site.xml' file or will revert to a default configuration.</description>
+                            <displayName>Hadoop Configuration Resources</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Hadoop Configuration Resources</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Principal</key>
+                        <value>
+                            <description>Kerberos principal to authenticate as. Requires nifi.kerberos.krb5.file to be set in your nifi.properties</description>
+                            <displayName>Kerberos Principal</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Kerberos Principal</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Keytab</key>
+                        <value>
+                            <description>Kerberos keytab associated with the principal. Requires nifi.kerberos.krb5.file to be set in your nifi.properties</description>
+                            <displayName>Kerberos Keytab</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Kerberos Keytab</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Relogin Period</key>
+                        <value>
+                            <defaultValue>4 hours</defaultValue>
+                            <description>Period of time which should pass before attempting a kerberos relogin</description>
+                            <displayName>Kerberos Relogin Period</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Kerberos Relogin Period</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Directory</key>
+                        <value>
+                            <description>The parent HDFS directory to which files should be written</description>
+                            <displayName>Directory</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Directory</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                        <value>
+                            <allowableValues>
+<displayName>replace</displayName>
+<value>replace</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>ignore</displayName>
+<value>ignore</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>fail</displayName>
+<value>fail</value>
+                            </allowableValues>
+                            <defaultValue>fail</defaultValue>
+                            <description>Indicates what should happen when a file with the same name already exists in the output directory</description>
+                            <displayName>Conflict Resolution Strategy</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Conflict Resolution Strategy</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Block Size</key>
+                        <value>
+                            <description>Size of each block as written to HDFS. This overrides the Hadoop Configuration</description>
+                            <displayName>Block Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Block Size</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>IO Buffer Size</key>
+                        <value>
+                            <description>Amount of memory to use to buffer file contents during IO. This overrides the Hadoop Configuration</description>
+                            <displayName>IO Buffer Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>IO Buffer Size</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Replication</key>
+                        <value>
+                            <description>Number of times that HDFS will replicate each file. This overrides the Hadoop Configuration</description>
+                            <displayName>Replication</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Replication</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Permissions umask</key>
+                        <value>
+                            <description>A umask represented as an octal number which determines the permissions of files written to HDFS. This overrides the Hadoop Configuration dfs.umaskmode</description>
+                            <displayName>Permissions umask</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Permissions umask</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Remote Owner</key>
+                        <value>
+                            <description>Changes the owner of the HDFS file to this value after it is written. This only works if NiFi is running as a user that has HDFS super user privilege to change owner</description>
+                            <displayName>Remote Owner</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Remote Owner</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Remote Group</key>
+                        <value>
+                            <description>Changes the group of the HDFS file to this value after it is written. This only works if NiFi is running as a user that has HDFS super user privilege to change group</description>
+                            <displayName>Remote Group</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Remote Group</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Compression codec</key>
+                        <value>
+                            <allowableValues>
+<displayName>NONE</displayName>
+<value>NONE</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>DEFAULT</displayName>
+<value>DEFAULT</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>BZIP</displayName>
+<value>BZIP</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>GZIP</displayName>
+<value>GZIP</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>LZ4</displayName>
+<value>LZ4</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>SNAPPY</displayName>
+<value>SNAPPY</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>AUTOMATIC</displayName>
+<value>AUTOMATIC</value>
+                            </allowableValues>
+                            <defaultValue>NONE</defaultValue>
+                            <description></description>
+                            <displayName>Compression codec</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Compression codec</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Hadoop Configuration Resources</key>
+                        <value>/opt/nifi/conf/core-site.xml,/opt/nifi/conf/hdfs-site.xml</value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Principal</key>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Keytab</key>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Relogin Period</key>
+                    </entry>
+                    <entry>
+                        <key>Directory</key>
+                        <value>hdfs://hadoop:9000/nifi/kafka/failed/${now():format('yyyy/MM/dd/HH')}</value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                    </entry>
+                    <entry>
+                        <key>Block Size</key>
+                    </entry>
+                    <entry>
+                        <key>IO Buffer Size</key>
+                    </entry>
+                    <entry>
+                        <key>Replication</key>
+                    </entry>
+                    <entry>
+                        <key>Permissions umask</key>
+                    </entry>
+                    <entry>
+                        <key>Remote Owner</key>
+                    </entry>
+                    <entry>
+                        <key>Remote Group</key>
+                    </entry>
+                    <entry>
+                        <key>Compression codec</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>PutHDFS</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>Files that could not be written to HDFS for some reason are transferred to this relationship</description>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>Files that have been successfully written to HDFS are transferred to this relationship</description>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style>
+                <entry>
+                    <key>background-color</key>
+                    <value>#c74d4d</value>
+                </entry>
+            </style>
+            <supportsBatching>false</supportsBatching>
+            <supportsEventDriven>false</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.hadoop.PutHDFS</type>
+        </processors>
+        <processors>
+            <id>a7cee0a1-ebfc-4ad6-93b3-71c265a8b5bd</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <position>
+                <x>1638.6020818079066</x>
+                <y>687.500059008033</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Hadoop Configuration Resources</key>
+                        <value>
+                            <description>A file or comma separated list of files which contains the Hadoop file system configuration. Without this, Hadoop will search the classpath for a 'core-site.xml' and 'hdfs-site.xml' file or will revert to a default configuration.</description>
+                            <displayName>Hadoop Configuration Resources</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Hadoop Configuration Resources</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Principal</key>
+                        <value>
+                            <description>Kerberos principal to authenticate as. Requires nifi.kerberos.krb5.file to be set in your nifi.properties</description>
+                            <displayName>Kerberos Principal</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Kerberos Principal</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Keytab</key>
+                        <value>
+                            <description>Kerberos keytab associated with the principal. Requires nifi.kerberos.krb5.file to be set in your nifi.properties</description>
+                            <displayName>Kerberos Keytab</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Kerberos Keytab</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Relogin Period</key>
+                        <value>
+                            <defaultValue>4 hours</defaultValue>
+                            <description>Period of time which should pass before attempting a kerberos relogin</description>
+                            <displayName>Kerberos Relogin Period</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Kerberos Relogin Period</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Directory</key>
+                        <value>
+                            <description>The parent HDFS directory to which files should be written</description>
+                            <displayName>Directory</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Directory</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                        <value>
+                            <allowableValues>
+<displayName>replace</displayName>
+<value>replace</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>ignore</displayName>
+<value>ignore</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>fail</displayName>
+<value>fail</value>
+                            </allowableValues>
+                            <defaultValue>fail</defaultValue>
+                            <description>Indicates what should happen when a file with the same name already exists in the output directory</description>
+                            <displayName>Conflict Resolution Strategy</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Conflict Resolution Strategy</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Block Size</key>
+                        <value>
+                            <description>Size of each block as written to HDFS. This overrides the Hadoop Configuration</description>
+                            <displayName>Block Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Block Size</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>IO Buffer Size</key>
+                        <value>
+                            <description>Amount of memory to use to buffer file contents during IO. This overrides the Hadoop Configuration</description>
+                            <displayName>IO Buffer Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>IO Buffer Size</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Replication</key>
+                        <value>
+                            <description>Number of times that HDFS will replicate each file. This overrides the Hadoop Configuration</description>
+                            <displayName>Replication</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Replication</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Permissions umask</key>
+                        <value>
+                            <description>A umask represented as an octal number which determines the permissions of files written to HDFS. This overrides the Hadoop Configuration dfs.umaskmode</description>
+                            <displayName>Permissions umask</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Permissions umask</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Remote Owner</key>
+                        <value>
+                            <description>Changes the owner of the HDFS file to this value after it is written. This only works if NiFi is running as a user that has HDFS super user privilege to change owner</description>
+                            <displayName>Remote Owner</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Remote Owner</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Remote Group</key>
+                        <value>
+                            <description>Changes the group of the HDFS file to this value after it is written. This only works if NiFi is running as a user that has HDFS super user privilege to change group</description>
+                            <displayName>Remote Group</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Remote Group</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Compression codec</key>
+                        <value>
+                            <allowableValues>
+<displayName>NONE</displayName>
+<value>NONE</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>DEFAULT</displayName>
+<value>DEFAULT</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>BZIP</displayName>
+<value>BZIP</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>GZIP</displayName>
+<value>GZIP</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>LZ4</displayName>
+<value>LZ4</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>SNAPPY</displayName>
+<value>SNAPPY</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>AUTOMATIC</displayName>
+<value>AUTOMATIC</value>
+                            </allowableValues>
+                            <defaultValue>NONE</defaultValue>
+                            <description></description>
+                            <displayName>Compression codec</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Compression codec</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Hadoop Configuration Resources</key>
+                        <value>/opt/nifi/conf/core-site.xml,/opt/nifi/conf/hdfs-site.xml</value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Principal</key>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Keytab</key>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Relogin Period</key>
+                    </entry>
+                    <entry>
+                        <key>Directory</key>
+                        <value>hdfs://hadoop:9000/nifi/failed/hdfs/${now():format('yyyy/MM/dd/HH')}</value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                    </entry>
+                    <entry>
+                        <key>Block Size</key>
+                    </entry>
+                    <entry>
+                        <key>IO Buffer Size</key>
+                    </entry>
+                    <entry>
+                        <key>Replication</key>
+                    </entry>
+                    <entry>
+                        <key>Permissions umask</key>
+                    </entry>
+                    <entry>
+                        <key>Remote Owner</key>
+                    </entry>
+                    <entry>
+                        <key>Remote Group</key>
+                    </entry>
+                    <entry>
+                        <key>Compression codec</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>PutHDFS</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>Files that could not be written to HDFS for some reason are transferred to this relationship</description>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>Files that have been successfully written to HDFS are transferred to this relationship</description>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style>
+                <entry>
+                    <key>background-color</key>
+                    <value>#c74d4d</value>
+                </entry>
+            </style>
+            <supportsBatching>false</supportsBatching>
+            <supportsEventDriven>false</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.hadoop.PutHDFS</type>
+        </processors>
+        <processors>
+            <id>32034db3-4ebb-4d42-897a-110cca52f7b2</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <position>
+                <x>559.8662924503614</x>
+                <y>330.73889180866297</y>
+            </position>
+            <config>
+                <bulletinLevel>DEBUG</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Known Brokers</key>
+                        <value>
+                            <description>A comma-separated list of known Kafka Brokers in the format &lt;host&gt;:&lt;port&gt;</description>
+                            <displayName>Known Brokers</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Known Brokers</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Topic Name</key>
+                        <value>
+                            <description>The Kafka Topic of interest</description>
+                            <displayName>Topic Name</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Topic Name</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Partition Strategy</key>
+                        <value>
+                            <allowableValues>
+<description>Messages will be assigned partitions in a round-robin fashion, sending the first message to Partition 1, the next Partition to Partition 2, and so on, wrapping as necessary.</description>
+<displayName>Round Robin</displayName>
+<value>Round Robin</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>Messages will be assigned to random partitions.</description>
+<displayName>Random</displayName>
+<value>Random Robin</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>The &lt;Partition&gt; property will be used to determine the partition. All messages within the same FlowFile will be assigned to the same partition.</description>
+<displayName>User-Defined</displayName>
+<value>User-Defined</value>
+                            </allowableValues>
+                            <defaultValue>Round Robin</defaultValue>
+                            <description>Specifies how messages should be partitioned when sent to Kafka</description>
+                            <displayName>Partition Strategy</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Partition Strategy</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Partition</key>
+                        <value>
+                            <description>Specifies which Kafka Partition to add the message to. If using a message delimiter, all messages in the same FlowFile will be sent to the same partition. If a partition is specified but is not valid, then all messages within the same FlowFile will use the same partition but it remains undefined which partition is used.</description>
+                            <displayName>Partition</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Partition</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kafka Key</key>
+                        <value>
+                            <description>The Key to use for the Message</description>
+                            <displayName>Kafka Key</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Kafka Key</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Delivery Guarantee</key>
+                        <value>
+                            <allowableValues>
+<description>FlowFile will be routed to success after successfully writing the content to a Kafka node, without waiting for a response. This provides the best performance but may result in data loss.</description>
+<displayName>Best Effort</displayName>
+<value>0</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>FlowFile will be routed to success if the message is received by a single Kafka node, whether or not it is replicated. This is faster than &lt;Guarantee Replicated Delivery&gt; but can result in data loss if a Kafka node crashes</description>
+<displayName>Guarantee Single Node Delivery</displayName>
+<value>1</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>FlowFile will be routed to failure unless the message is replicated to the appropriate number of Kafka Nodes according to the Topic configuration</description>
+<displayName>Guarantee Replicated Delivery</displayName>
+<value>all</value>
+                            </allowableValues>
+                            <defaultValue>0</defaultValue>
+                            <description>Specifies the requirement for guaranteeing that a message is sent to Kafka</description>
+                            <displayName>Delivery Guarantee</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Delivery Guarantee</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Message Delimiter</key>
+                        <value>
+                            <description>Specifies the delimiter (interpreted in its UTF-8 byte representation) to use for splitting apart multiple messages within a single FlowFile. If not specified, the entire content of the FlowFile will be used as a single message. If specified, the contents of the FlowFile will be split on this delimiter and each section sent as a separate Kafka message. Note that if messages are delimited and some messages for a given FlowFile are transferred successfully while others are not, the messages will be split into individual FlowFiles, such that those messages that were successfully sent are routed to the 'success' relationship while other messages are sent to the 'failure' relationship.</description>
+                            <displayName>Message Delimiter</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Message Delimiter</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Buffer Size</key>
+                        <value>
+                            <defaultValue>5 MB</defaultValue>
+                            <description>The maximum amount of data to buffer in memory before sending to Kafka</description>
+                            <displayName>Max Buffer Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Max Buffer Size</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Record Size</key>
+                        <value>
+                            <defaultValue>1 MB</defaultValue>
+                            <description>The maximum size that any individual record can be.</description>
+                            <displayName>Max Record Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Max Record Size</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Communications Timeout</key>
+                        <value>
+                            <defaultValue>30 secs</defaultValue>
+                            <description>The amount of time to wait for a response from Kafka before determining that there is a communications error</description>
+                            <displayName>Communications Timeout</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Communications Timeout</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Async Batch Size</key>
+                        <value>
+                            <defaultValue>200</defaultValue>
+                            <description>The number of messages to send in one batch. The producer will wait until either this number of messages are ready to send or &quot;Queue Buffering Max Time&quot; is reached. NOTE: This property will be ignored unless the 'Message Delimiter' property is specified.</description>
+                            <displayName>Batch Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Async Batch Size</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Queue Buffering Max Time</key>
+                        <value>
+                            <defaultValue>5 secs</defaultValue>
+                            <description>Maximum time to buffer data before sending to Kafka. For example a setting of 100 ms will try to batch together 100 milliseconds' worth of messages to send at once. This will improve throughput but adds message delivery latency due to the buffering.</description>
+                            <displayName>Queue Buffering Max Time</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Queue Buffering Max Time</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Compression Codec</key>
+                        <value>
+                            <allowableValues>
+<description>Compression will not be used for any topic.</description>
+<displayName>None</displayName>
+<value>none</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>Compress messages using GZIP</description>
+<displayName>GZIP</displayName>
+<value>gzip</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>Compress messages using Snappy</description>
+<displayName>Snappy</displayName>
+<value>snappy</value>
+                            </allowableValues>
+                            <defaultValue>none</defaultValue>
+                            <description>This parameter allows you to specify the compression codec for all data generated by this producer.</description>
+                            <displayName>Compression Codec</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Compression Codec</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Client Name</key>
+                        <value>
+                            <description>Client Name to use when communicating with Kafka</description>
+                            <displayName>Client Name</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Client Name</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Known Brokers</key>
+                        <value>kafka:9092</value>
+                    </entry>
+                    <entry>
+                        <key>Topic Name</key>
+                        <value>kafka-raw</value>
+                    </entry>
+                    <entry>
+                        <key>Partition Strategy</key>
+                    </entry>
+                    <entry>
+                        <key>Partition</key>
+                    </entry>
+                    <entry>
+                        <key>Kafka Key</key>
+                    </entry>
+                    <entry>
+                        <key>Delivery Guarantee</key>
+                    </entry>
+                    <entry>
+                        <key>Message Delimiter</key>
+                    </entry>
+                    <entry>
+                        <key>Max Buffer Size</key>
+                    </entry>
+                    <entry>
+                        <key>Max Record Size</key>
+                    </entry>
+                    <entry>
+                        <key>Communications Timeout</key>
+                    </entry>
+                    <entry>
+                        <key>Async Batch Size</key>
+                    </entry>
+                    <entry>
+                        <key>Queue Buffering Max Time</key>
+                    </entry>
+                    <entry>
+                        <key>Compression Codec</key>
+                    </entry>
+                    <entry>
+                        <key>Client Name</key>
+                        <value>mqtt</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>PutKafka</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>Any FlowFile that cannot be sent to Kafka will be routed to this Relationship</description>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>Any FlowFile that is successfully sent to Kafka will be routed to this Relationship</description>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style>
+                <entry>
+                    <key>background-color</key>
+                    <value>#718eed</value>
+                </entry>
+            </style>
+            <supportsBatching>false</supportsBatching>
+            <supportsEventDriven>false</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.kafka.PutKafka</type>
+        </processors>
+        <processors>
+            <id>cff913c2-360b-471c-b156-1edc18245672</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <position>
+                <x>1103.8209966144589</x>
+                <y>690.7312610172039</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Hadoop Configuration Resources</key>
+                        <value>
+                            <description>A file or comma separated list of files which contains the Hadoop file system configuration. Without this, Hadoop will search the classpath for a 'core-site.xml' and 'hdfs-site.xml' file or will revert to a default configuration.</description>
+                            <displayName>Hadoop Configuration Resources</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Hadoop Configuration Resources</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Principal</key>
+                        <value>
+                            <description>Kerberos principal to authenticate as. Requires nifi.kerberos.krb5.file to be set in your nifi.properties</description>
+                            <displayName>Kerberos Principal</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Kerberos Principal</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Keytab</key>
+                        <value>
+                            <description>Kerberos keytab associated with the principal. Requires nifi.kerberos.krb5.file to be set in your nifi.properties</description>
+                            <displayName>Kerberos Keytab</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Kerberos Keytab</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Relogin Period</key>
+                        <value>
+                            <defaultValue>4 hours</defaultValue>
+                            <description>Period of time which should pass before attempting a kerberos relogin</description>
+                            <displayName>Kerberos Relogin Period</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Kerberos Relogin Period</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Directory</key>
+                        <value>
+                            <description>The parent HDFS directory to which files should be written</description>
+                            <displayName>Directory</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Directory</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                        <value>
+                            <allowableValues>
+<displayName>replace</displayName>
+<value>replace</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>ignore</displayName>
+<value>ignore</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>fail</displayName>
+<value>fail</value>
+                            </allowableValues>
+                            <defaultValue>fail</defaultValue>
+                            <description>Indicates what should happen when a file with the same name already exists in the output directory</description>
+                            <displayName>Conflict Resolution Strategy</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Conflict Resolution Strategy</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Block Size</key>
+                        <value>
+                            <description>Size of each block as written to HDFS. This overrides the Hadoop Configuration</description>
+                            <displayName>Block Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Block Size</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>IO Buffer Size</key>
+                        <value>
+                            <description>Amount of memory to use to buffer file contents during IO. This overrides the Hadoop Configuration</description>
+                            <displayName>IO Buffer Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>IO Buffer Size</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Replication</key>
+                        <value>
+                            <description>Number of times that HDFS will replicate each file. This overrides the Hadoop Configuration</description>
+                            <displayName>Replication</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Replication</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Permissions umask</key>
+                        <value>
+                            <description>A umask represented as an octal number which determines the permissions of files written to HDFS. This overrides the Hadoop Configuration dfs.umaskmode</description>
+                            <displayName>Permissions umask</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Permissions umask</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Remote Owner</key>
+                        <value>
+                            <description>Changes the owner of the HDFS file to this value after it is written. This only works if NiFi is running as a user that has HDFS super user privilege to change owner</description>
+                            <displayName>Remote Owner</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Remote Owner</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Remote Group</key>
+                        <value>
+                            <description>Changes the group of the HDFS file to this value after it is written. This only works if NiFi is running as a user that has HDFS super user privilege to change group</description>
+                            <displayName>Remote Group</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Remote Group</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Compression codec</key>
+                        <value>
+                            <allowableValues>
+<displayName>NONE</displayName>
+<value>NONE</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>DEFAULT</displayName>
+<value>DEFAULT</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>BZIP</displayName>
+<value>BZIP</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>GZIP</displayName>
+<value>GZIP</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>LZ4</displayName>
+<value>LZ4</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>SNAPPY</displayName>
+<value>SNAPPY</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>AUTOMATIC</displayName>
+<value>AUTOMATIC</value>
+                            </allowableValues>
+                            <defaultValue>NONE</defaultValue>
+                            <description></description>
+                            <displayName>Compression codec</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Compression codec</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Hadoop Configuration Resources</key>
+                        <value>/opt/nifi/conf/core-site.xml,/opt/nifi/conf/hdfs-site.xml</value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Principal</key>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Keytab</key>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Relogin Period</key>
+                    </entry>
+                    <entry>
+                        <key>Directory</key>
+                        <value>hdfs://hadoop:9000/nifi/exceptions/${now():format('yyyy/MM/dd/HH')}</value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                    </entry>
+                    <entry>
+                        <key>Block Size</key>
+                    </entry>
+                    <entry>
+                        <key>IO Buffer Size</key>
+                    </entry>
+                    <entry>
+                        <key>Replication</key>
+                    </entry>
+                    <entry>
+                        <key>Permissions umask</key>
+                    </entry>
+                    <entry>
+                        <key>Remote Owner</key>
+                    </entry>
+                    <entry>
+                        <key>Remote Group</key>
+                    </entry>
+                    <entry>
+                        <key>Compression codec</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>PutHDFS</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>Files that could not be written to HDFS for some reason are transferred to this relationship</description>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>Files that have been successfully written to HDFS are transferred to this relationship</description>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style>
+                <entry>
+                    <key>background-color</key>
+                    <value>#c74d4d</value>
+                </entry>
+            </style>
+            <supportsBatching>false</supportsBatching>
+            <supportsEventDriven>false</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.hadoop.PutHDFS</type>
+        </processors>
+        <processors>
+            <id>9a421ab9-9460-4ab9-ab39-73a2c3f90216</id>
+            <parentGroupId>4351e928-fee7-4050-acd5-f9c3add06111</parentGroupId>
+            <position>
+                <x>1631.4834581052367</x>
+                <y>325.80444892017226</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Hadoop Configuration Resources</key>
+                        <value>
+                            <description>A file or comma separated list of files which contains the Hadoop file system configuration. Without this, Hadoop will search the classpath for a 'core-site.xml' and 'hdfs-site.xml' file or will revert to a default configuration.</description>
+                            <displayName>Hadoop Configuration Resources</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Hadoop Configuration Resources</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Principal</key>
+                        <value>
+                            <description>Kerberos principal to authenticate as. Requires nifi.kerberos.krb5.file to be set in your nifi.properties</description>
+                            <displayName>Kerberos Principal</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Kerberos Principal</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Keytab</key>
+                        <value>
+                            <description>Kerberos keytab associated with the principal. Requires nifi.kerberos.krb5.file to be set in your nifi.properties</description>
+                            <displayName>Kerberos Keytab</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Kerberos Keytab</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Relogin Period</key>
+                        <value>
+                            <defaultValue>4 hours</defaultValue>
+                            <description>Period of time which should pass before attempting a kerberos relogin</description>
+                            <displayName>Kerberos Relogin Period</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Kerberos Relogin Period</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Directory</key>
+                        <value>
+                            <description>The parent HDFS directory to which files should be written</description>
+                            <displayName>Directory</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Directory</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                        <value>
+                            <allowableValues>
+<displayName>replace</displayName>
+<value>replace</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>ignore</displayName>
+<value>ignore</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>fail</displayName>
+<value>fail</value>
+                            </allowableValues>
+                            <defaultValue>fail</defaultValue>
+                            <description>Indicates what should happen when a file with the same name already exists in the output directory</description>
+                            <displayName>Conflict Resolution Strategy</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Conflict Resolution Strategy</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Block Size</key>
+                        <value>
+                            <description>Size of each block as written to HDFS. This overrides the Hadoop Configuration</description>
+                            <displayName>Block Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Block Size</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>IO Buffer Size</key>
+                        <value>
+                            <description>Amount of memory to use to buffer file contents during IO. This overrides the Hadoop Configuration</description>
+                            <displayName>IO Buffer Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>IO Buffer Size</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Replication</key>
+                        <value>
+                            <description>Number of times that HDFS will replicate each file. This overrides the Hadoop Configuration</description>
+                            <displayName>Replication</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Replication</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Permissions umask</key>
+                        <value>
+                            <description>A umask represented as an octal number which determines the permissions of files written to HDFS. This overrides the Hadoop Configuration dfs.umaskmode</description>
+                            <displayName>Permissions umask</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Permissions umask</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Remote Owner</key>
+                        <value>
+                            <description>Changes the owner of the HDFS file to this value after it is written. This only works if NiFi is running as a user that has HDFS super user privilege to change owner</description>
+                            <displayName>Remote Owner</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Remote Owner</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Remote Group</key>
+                        <value>
+                            <description>Changes the group of the HDFS file to this value after it is written. This only works if NiFi is running as a user that has HDFS super user privilege to change group</description>
+                            <displayName>Remote Group</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Remote Group</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Compression codec</key>
+                        <value>
+                            <allowableValues>
+<displayName>NONE</displayName>
+<value>NONE</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>DEFAULT</displayName>
+<value>DEFAULT</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>BZIP</displayName>
+<value>BZIP</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>GZIP</displayName>
+<value>GZIP</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>LZ4</displayName>
+<value>LZ4</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>SNAPPY</displayName>
+<value>SNAPPY</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>AUTOMATIC</displayName>
+<value>AUTOMATIC</value>
+                            </allowableValues>
+                            <defaultValue>NONE</defaultValue>
+                            <description></description>
+                            <displayName>Compression codec</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Compression codec</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Hadoop Configuration Resources</key>
+                        <value>/opt/nifi/conf/core-site.xml,/opt/nifi/conf/hdfs-site.xml</value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Principal</key>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Keytab</key>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Relogin Period</key>
+                    </entry>
+                    <entry>
+                        <key>Directory</key>
+                        <value>hdfs://hadoop:9000/nifi/success/${now():format('yyyy/MM/dd/HH')}</value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                        <value>ignore</value>
+                    </entry>
+                    <entry>
+                        <key>Block Size</key>
+                    </entry>
+                    <entry>
+                        <key>IO Buffer Size</key>
+                    </entry>
+                    <entry>
+                        <key>Replication</key>
+                    </entry>
+                    <entry>
+                        <key>Permissions umask</key>
+                    </entry>
+                    <entry>
+                        <key>Remote Owner</key>
+                    </entry>
+                    <entry>
+                        <key>Remote Group</key>
+                    </entry>
+                    <entry>
+                        <key>Compression codec</key>
+                        <value>GZIP</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>PutHDFS</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>Files that could not be written to HDFS for some reason are transferred to this relationship</description>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>Files that have been successfully written to HDFS are transferred to this relationship</description>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style>
+                <entry>
+                    <key>background-color</key>
+                    <value>#47b03f</value>
+                </entry>
+            </style>
+            <supportsBatching>false</supportsBatching>
+            <supportsEventDriven>false</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.hadoop.PutHDFS</type>
+        </processors>
+    </snippet>
+    <timestamp>05/06/2016 09:49:58 UTC</timestamp>
+</template>
