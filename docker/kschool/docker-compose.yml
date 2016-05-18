@@ -1,0 +1,103 @@
+hadoop:
+  build: ./hadoop
+  container_name: hadoop
+  volumes:
+    - ../shared/hadoop/log:/var/log
+    - ../shared/hadoop/misc:/misc
+  ports:
+    - "22227:22"
+    - 50070:50070
+
+kafka:
+  build: ./kafka
+  container_name: kafka
+  volumes:
+    - ../shared/kafka/log:/var/log
+    - ../shared/kafka/misc:/misc
+  ports:
+    - "22226:22"
+    - 9092:9092
+    - 2181:2181
+  entrypoint: ["/bin/bash", "/misc/script.sh"]
+
+mongodb:
+  build: ./mongoDB
+  container_name: mongodb
+  ports:
+    - "22225:22"
+    - 27017:27017
+  volumes:
+    - ../shared/mongodb/misc:/misc
+  entrypoint: ["/bin/bash", "/misc/script.sh"]
+
+mqtt:
+  build: ./mqtt
+  container_name: mqtt
+  ports:
+    - "22224:22"
+    - 1883:1883
+  volumes:
+    - ../shared/mqtt/log:/var/log
+    - ../shared/mqtt/misc:/misc
+
+flink:
+  build: ./flink
+  container_name: flink
+  ports:
+    - "22223:22"
+    - 8081:8081
+  volumes:
+    - ../shared/flink/log:/var/log
+    - ../shared/flink/misc:/misc
+  links:
+    - hadoop
+    - kafka
+    - mongodb
+    - mqtt
+
+nifi:
+  build: ./nifi
+  container_name: nifi
+  volumes:
+    - ../shared/nifi/log:/var/logs
+    - ../shared/nifi/misc:/misc
+  ports:
+    - "22222:22"
+    - 8080:8080
+  links:
+    - kafka
+    - mqtt
+    - hadoop
+
+nodejs:
+  build: ./nodejs
+  container_name: nodejs
+  volumes:
+    - ../shared/nodejs/log:/var/logs
+    - ../shared/nodejs/misc:/misc
+  ports:
+    - "22221:22"
+    - 4000:4000
+  links:
+    - mongodb
+
+sendmail:
+  build: ./sendmail
+  container_name: sendmail
+  volumes:
+    - ../shared/sendmail/log:/var/logs
+    - ../shared/sendmail/misc:/misc
+  ports:
+    - "22220:22"
+  links:
+    - mongodb
+    - kafka
+
+sendmqtt:
+  build: ./sendmqtt
+  container_name: sendmqtt
+  volumes:
+    - ../shared/sendmqtt/log:/var/logs
+    - ../shared/sendmqtt/misc:/misc
+  links:
+    - mqtt

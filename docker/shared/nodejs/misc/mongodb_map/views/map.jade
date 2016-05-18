@@ -1,0 +1,48 @@
+extends layout
+block content
+    #map
+    #leg_title 
+        span#leg_items Map Legend
+    #leg
+        each layer, i in jmap
+            input(type='checkbox' id='#{layer.name}')
+            span#leg_items #{layer.name}
+            br
+    script(type='text/javascript').
+        L.mapbox.accessToken = 'pk.eyJ1IjoianVuY2xlcmEiLCJhIjoiY2luN3dxNTBpMDAzYndvbHpkc282b2x4cCJ9.0nMTDKb0yFNI4gzp932m0w'
+        //var map = L.mapbox.map('map', 'mapbox.dc-markers').setView([#{lat},#{lng}], 9);
+
+        var map = L.mapbox.map('map', 'mapbox.dc-markers').setView([#{lat},#{lng}], 11);
+        setInterval(paint,2000)
+        function paint() {
+             map.eachLayer(function(layer) {
+               if (layer instanceof L.Marker) {
+                 map.removeLayer(layer);
+               }
+             });
+
+            $.getJSON('/people',function(result){
+                        $.each(result, function(i, mlayer){
+                            var layer = L.mapbox.featureLayer()
+                            layer.loadURL('/people/' + mlayer.name)
+
+                            addLayer(layer, mlayer.name);
+                        });
+                    });
+                    function addLayer(layer, name) {
+                        layer
+                            .addTo(map);
+                        $('#' + name).click(function(e) {
+                            e.stopPropagation();
+
+                            if (map.hasLayer(layer)) {
+                                map.removeLayer(layer);
+                                this.className = '';
+                            } else {
+                                map.addLayer(layer);
+                                this.className = 'active';
+                            }
+                        });
+                    }
+        }
+
