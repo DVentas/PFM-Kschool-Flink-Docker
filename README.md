@@ -44,7 +44,7 @@ Este proyecto está en progreso y tiene mucho que mejorar. Todo feedback será b
 
    [Donald Bren School of Information and Computer Sciences]: <http://www.ics.uci.edu/>
    [sendmqtt]: <https://github.com/DVentas/PFM-Kschool-Flink-Docker/tree/master/kschool.pfm.send.mqtt>
-   [sendmail]: <https://github.com/DVentas/PFM-Kschool-Flink-Docker/tree/master/kschool.pfm.sendMAil>
+   [sendmail]: <https://github.com/DVentas/PFM-Kschool-Flink-Docker/tree/master/kschool.pfm.sendMail>
    [kschool.flink]: <https://github.com/DVentas/PFM-Kschool-Flink-Docker/tree/master/kschool.pfm.flink>
 
 
