@@ -6,4 +6,4 @@ Será necesario configurar servidor de emial.
 
 La arquitectura es:
 
-![alt tag](https://github.com/DVentas/PFM-Kschool-Flink-Docker/tree/master/kschool.pfm.sendMail/architecture-sendMail.png)
+![ScreenShot](https://raw.github.com/DVentas/PFM-Kschool-Flink-Docker/master/kschool.pfm.sendMail/architecture-sendMail.png)

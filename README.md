@@ -19,7 +19,7 @@ Existen dos tipos de alertas aplicado a cualquiera de los 3 ejes (x,y,z):
 
 La arquitectura es la siguiente:
 
-![alt tag](https://github.com/DVentas/PFM-Kschool-Flink-Docker/tree/master/architecture.png)
+![ScreenShot](https://github.com/DVentas/PFM-Kschool-Flink-Docker/master/architecture.png)
 
 Todo el proyecto está montado con Docker, coordinado a través de docker compose.
 
